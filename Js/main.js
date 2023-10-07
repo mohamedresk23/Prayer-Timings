@@ -1,12 +1,4 @@
-{/* <option value="">Egypt</option>
-        <option value="">Riyad</option>
-        <option value="">Dubai</option>
-        <option value="">Mecca</option>
-        <option value="">Kuwait</option>
-        <option value="">Qatar</option> */}
 
-
-const axios = require('axios');
 let cities = [ "Cairo", "Giza", "Alexandria", "Damietta", "Dakahlia" ];
 
 const citiesSelect = document.getElementById("cities-select");
