@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+  <!-- google fonte -->
+  <link
+    rel="preconnect"
+    href="https://fonts.googleapis.com"
+  >
+  <link
+    rel="preconnect"
+    href="https://fonts.gstatic.com"
+    crossorigin
+  >
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap"
+    rel="stylesheet"
+  >
+  <!-- main style sheet -->
+  <link
+    rel="stylesheet"
+    href="CSS/style.css"
+  >
+  <title>Prayer Timings</title>
+</head>
+
+<body>
+
+  <div class="container">
+    <!-- start citay name and date section -->
+    <section class="citay-name-date">
+      <!-- start citay name -->
+      <div class="citay-name">
+        <h1>Egypt</h1>
+      </div>
+      <!-- end citay name -->
+      <!-- start Date -->
+      <div class="date-div">
+        <h5 id="date">Friday 15 augaste</h5>
+      </div>
+      <!-- end Date -->
+      <hr>
+    </section>
+    <!-- end citay name and date section -->
+
+    <!-- start prayer timing section-->
+    <section class="prayer-timing">
+      <div class="card">
+        <div class="header">
+          <h1>Fajr</h1>
+        </div>
+        <div class="body center">
+          <h1
+            class="time"
+            id="fajr-time"
+          >
+            5:30 AM
+          </h1>
+        </div>
+      </div>
+      <div class="card ">
+        <div class="header">
+          <h1>Sunrise</h1>
+        </div>
+        <div class="body center">
+          <h1
+            class="time"
+            id="sunrise-time"
+          >
+            5:30 AM
+          </h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="header">
+          <h1>Dhuhr</h1>
+        </div>
+        <div class="body center">
+          <h1
+            class="time"
+            id="dhuhr-time"
+          >
+            5:30 AM
+          </h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="header">
+          <h1>Asr</h1>
+        </div>
+        <div class="body center">
+          <h1
+            class="time"
+            id="asr-time"
+          >
+            5:30 AM
+          </h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="header">
+          <h1>Maghrib</h1>
+        </div>
+        <div class="body center">
+          <h1
+            class="time"
+            id="maghrib-time"
+          >
+            5:30 AM
+          </h1>
+        </div>
+      </div>
+      <div class="card">
+        <div class="header">
+          <h1>Isha</h1>
+        </div>
+        <div class="body center">
+          <h1
+            class="time"
+            id="isha-time"
+          >
+            5:30 AM
+          </h1>
+        </div>
+      </div>
+    </section>
+    <!-- end prayer timing section-->
+
+    <!-- start change city select section-->
+    <section class="change-city-select center">
+      <select
+        value=""
+        id="cities-select"
+      >
+
+      </select>
+
+      <!-- end change city select section-->
+  </div>
+
+  <script src="./node_modules/axios/dist/axios.min.js"></script>
+  <script src="Js/main.js"></script>
+
+</body>
+
+</html>

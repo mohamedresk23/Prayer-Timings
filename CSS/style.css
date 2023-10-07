@@ -1,0 +1,154 @@
+/* start global rules */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: linear-gradient(-45deg, #241065, #05001c);
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  /* justify-content: center; */
+  /* height: 100vh; */
+}
+
+.container {
+  margin: 53px auto;
+
+}
+
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* end global rules */
+
+/* start citay name and date section */
+.citay-name-date {
+  color: #fff;
+}
+
+.citay-name-date hr {
+  margin-inline: 20px;
+  border-color: #5200e1;
+}
+
+/* start citay name */
+.citay-name h1 {
+  font-size: 130px;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+/* end citay name */
+/* start date */
+.date-div h5 {
+  font-size: 35px;
+  margin-bottom: 5px;
+  font-weight: 100;
+  margin-left: 10px;
+
+}
+
+/* end date */
+
+/* end citay name and date section */
+
+/* start prayer timing section */
+.prayer-timing {
+  margin-block: 5px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 25px;
+  padding: 10px;
+  margin-block: 10px;
+}
+
+.prayer-timing .card {
+  box-shadow: 0px 10px 5px rgb(0 0 0 / 30%);
+}
+
+.prayer-timing .card .header {
+  background: linear-gradient(-45deg, #5709ee, #7a37bf);
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 10px 10px 0 0;
+}
+
+
+
+.prayer-timing .card .body {
+  background-color: #f2f2f2;
+  height: 100px;
+  color: #333;
+  padding: 5px;
+  border-radius: 0 0 10px 10px;
+}
+
+.prayer-timing .card .body h1 {
+  margin: auto;
+}
+
+/* Small */
+@media (max-width: 768px) {
+  .prayer-timing {
+    text-align: center;
+    /* grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); */
+  }
+
+  /* .prayer-timing .card {
+    width: 100px;
+    margin: auto;
+  } */
+}
+
+/* end prayer timing section */
+
+/* start change-city-select section */
+.change-city-select select {
+  margin-block: 70px;
+  width: 250px;
+  height: 40px;
+  outline: none;
+  border-radius: 30px;
+  padding-left: 10px;
+  font-size: 17px;
+  color: #fff;
+  background: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+.change-city-select select option {
+  /* color: black; */
+  background-color: black;
+}
+
+/* end change-city-select section */
